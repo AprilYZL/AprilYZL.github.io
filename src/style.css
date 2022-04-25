@@ -132,7 +132,7 @@ p {
 .profile-pic img {
     border-radius: 5vw;
     width: 50vw;
-    height: 50vh;
+    height: auto;
 }
 
 
@@ -173,9 +173,9 @@ p {
 }
 
 .project-image img {
-    width: 400px;
-    height: 400px;
-    border-radius: 200px;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 15vw;
 }
 
 a {
