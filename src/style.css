@@ -182,7 +182,12 @@ a {
 
 a {
     text-decoration: none;
-    color: #2c2f2c;
+    color: white;
+}
+
+.hamburger span{
+    color: white;
+    font-size: 65px;
 }
 
 .hamburger {
