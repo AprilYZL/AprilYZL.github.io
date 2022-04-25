@@ -101,7 +101,7 @@ p {
 }
 
 .sub-section {
-    display: flex;
+    display: inline-flex;
     /*justify-content: space-around;*/
     flex-direction: column;
     padding: 80px;
@@ -144,6 +144,7 @@ p {
 
 .project-container {
     display: flex;
+    max-height: inherit;
     justify-content: space-around;
 }
 
