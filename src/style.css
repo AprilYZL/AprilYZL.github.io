@@ -144,6 +144,7 @@ p {
     /*border: 1px solid black;*/
     box-shadow: 5px 5px 20px grey;
     margin: 10px;
+    object-fit: contain;
 }
 
 .project-info{
@@ -165,13 +166,14 @@ p {
 .project-image {
 
     margin-top: 25px;
+     /*object-fit: contain;*/
     /*overflow: hidden;*/
 }
 
 .project-image img {
     width: 400px;
-    height: 400px;
-
+    height: 30vh;
+    border-radius: 10px;
 }
 
 a {
