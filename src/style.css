@@ -143,8 +143,10 @@ p {
 }
 
 .project-info{
-    max-height: 30vh;
+    max-height: inherit;
     display: inline-flex;
+    flex-direction: column;
+    background-color: #2c2f2c;
 
 }
 
