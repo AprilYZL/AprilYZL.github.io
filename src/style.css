@@ -115,7 +115,6 @@ p {
     flex-direction: column;
 
 }
-
 .project-container {
     display: flex;
     justify-content: space-around;
@@ -124,7 +123,7 @@ p {
 
 .profile-pic {
     overflow: hidden;
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
 
@@ -170,9 +169,9 @@ p {
 }
 
 .project-image img {
-    width: 30vw;
+    width: 400px;
     height: 30vh;
-    border-radius: 15vw;
+    border-radius: 200px;
 }
 
 a {
