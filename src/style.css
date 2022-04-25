@@ -101,7 +101,7 @@ p {
 }
 
 .sub-section {
-    display: inline-flex;
+    display: flex;
     /*justify-content: space-around;*/
     flex-direction: column;
     padding: 80px;
@@ -114,6 +114,11 @@ p {
     display: flex;
     flex-direction: column;
 
+}
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .profile-pic {
@@ -129,6 +134,7 @@ p {
     width: 50vw;
     height: 50vh;
 }
+
 
 .project-card {
     /*height: 500px;*/
@@ -149,11 +155,7 @@ p {
 
 }
 
-.project-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
+
 
 .subtext {
     font-size: 15px;
