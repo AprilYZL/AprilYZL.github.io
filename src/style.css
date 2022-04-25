@@ -123,14 +123,13 @@ p {
 
 .profile-pic {
     overflow: hidden;
-    display: flex;
+    display: block;
     flex-direction: row;
     justify-content: center;
 
 }
 
 .profile-pic img {
-    border-radius: 5vw;
     width: 50vw;
     height: auto;
 }
@@ -151,7 +150,6 @@ p {
     max-height: 30vh;
     display: inline-flex;
     flex-direction: column;
-    background-color: #2c2f2c;
 
 }
 
